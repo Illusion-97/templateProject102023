@@ -1,0 +1,8 @@
+<div *ngFor="let nombre of numbers">
+  Nombre actuel : {{nombre}}
+  <app-enfant
+    [number]="nombre"
+    (numberChange)="afficher($event)"
+  ></app-enfant>
+</div>
+
