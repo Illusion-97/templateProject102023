@@ -12,7 +12,7 @@ export class EnfantComponent {
   @Output() // Prépare à notifier un parent d'un changement interne
   numberChange: EventEmitter<number> = new EventEmitter<number>()
 
-  // Input et Output peuvent aussi bien coexister, qu'être présent indépendamment, et même en plusieurs nombre
+  // Input et Output peuvent aussi bien coexister, qu'être présent indépendamment, et même en plusieurs nombres
 
 
   incrementNumber() {
